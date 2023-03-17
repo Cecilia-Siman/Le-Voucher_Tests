@@ -6,7 +6,7 @@ export default {
   moduleDirectories: ["node_modules", "src"],
   preset: "ts-jest",
   testEnvironment: "node",
-  testMatch: ["**/*.spec.ts"],
+  testMatch: ["**/*.test.ts"],
   transform: {
     ".+\\.ts$": "ts-jest",
   },

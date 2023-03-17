@@ -1,12 +1,10 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
+    // "target": "es6",  
+    // "module":"CommonJS",  
     "esModuleInterop": true,
-    "module": "CommonJS",
-    "moduleResolution": "Node",
-    "baseUrl": "src",
-  },
-  "ts-node": {
-    "esm": true
-  },
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "skipLibCheck": true,
+  }
 }
